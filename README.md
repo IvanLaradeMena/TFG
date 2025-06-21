@@ -36,13 +36,13 @@ Datos volcados en Mathcad Prime
 python main.py --input ejemplo.net --hs "1/(R1*C1*s+1)" --no-gui
 
 ## Estructura
-.
-├── main.py           # GUI y CLI
-├── traductor.py      # Parsing de netlist/BoM y generación de Excel
+traductor-wca/
+├── main.py           # GUI (Tkinter) y CLI
+├── traductor.py      # Parsers de netlist/BoM y generación de Excel
 ├── auto_mathcad.py   # Automatización COM para Mathcad Prime
-├── requirements.txt  # Dependencias
-└── README.md
+├── requirements.txt  # Dependencias del proyecto
+└── README.md         # Este fichero
 
-
+## Autoría del proyecto
 Autor: Iván Lara de Mena
 Tutores: Ángel Á. Sánchez, Ángel Otero R.
