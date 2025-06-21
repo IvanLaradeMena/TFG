@@ -1,5 +1,5 @@
-ChatGPT said:
 Traductor WCA – README
+
 Descripción
 Herramienta en Python para extraer parámetros de componentes desde netlists (.net, .sxsch) y BoM (.bom, .csv), normalizar valores, calcular desviaciones Worst-Case y generar un Excel listo para importar en Mathcad Prime vía COM.
 
