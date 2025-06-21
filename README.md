@@ -37,11 +37,11 @@ python main.py --input ejemplo.net --hs "1/(R1*C1*s+1)" --no-gui
 
 ## Estructura
 traductor-wca/
-├── main.py           # GUI (Tkinter) y CLI
-├── traductor.py      # Parsers de netlist/BoM y generación de Excel
-├── auto_mathcad.py   # Automatización COM para Mathcad Prime
-├── requirements.txt  # Dependencias del proyecto
-└── README.md         # Este fichero
+├── main.py
+├── traductor.py 
+├── auto_mathcad.py
+├── requirements.txt
+└── README.md
 
 ## Autoría del proyecto
 Autor: Iván Lara de Mena
