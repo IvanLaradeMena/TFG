@@ -12,7 +12,7 @@ Paquetes: openpyxl, comtypes, tkinter
 
 Instalación
 Clonar:
-git clone https://github.com/tu-usuario/traductor-wca.git
+git clone https://github.com/IvanLaradeMena/TFG
 
 Entrar al proyecto y, opcionalmente, crear entorno virtual.
 
