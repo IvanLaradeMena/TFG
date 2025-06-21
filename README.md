@@ -38,9 +38,13 @@ python main.py --input ejemplo.net --hs "1/(R1*C1*s+1)" --no-gui
 ## Estructura
 traductor-wca/
 ├── main.py
+
 ├── traductor.py 
+
 ├── auto_mathcad.py
+
 ├── requirements.txt
+
 └── README.md
 
 ## Autoría del proyecto
