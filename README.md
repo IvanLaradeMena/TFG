@@ -50,4 +50,5 @@ traductor-wca/
 
 ## Autoría del proyecto
 Autor: Iván Lara de Mena
+
 Tutores: Ángel Á. Sánchez, Ángel Otero R.
