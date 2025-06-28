@@ -2,6 +2,7 @@
 
 ## Description
 Python tool for extracting component parameters from netlists (.net, .sxsch) and BoM (.bom, .csv), normalizing values, calculating worst-case deviations, and generating an Excel file ready for import into Mathcad Prime via COM.
+This project is a Final Degree Project (TFG) at Universidad Rey Juan Carlos, carried out in collaboration with Thales Alenia Space (Spain).
 
 ## Requirements
 Windows 10/11 with Mathcad Prime 4–10
