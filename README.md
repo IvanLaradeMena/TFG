@@ -1,55 +1,54 @@
-# WCA Translator – README
+# Traductor WCA – README
 
-## Description  
-Python tool to extract component parameters from netlists (`.net`, `.sxsch`) and BoMs (`.bom`, `.csv`), normalize values, compute Worst-Case deviations, and generate an Excel file ready for import into Mathcad Prime via COM.
+## Descripción
+Herramienta en Python para extraer parámetros de componentes desde netlists (.net, .sxsch) y BoM (.bom, .csv), normalizar valores, calcular desviaciones Worst-Case y generar un Excel listo para importar en Mathcad Prime vía COM.
 
-## Requirements  
-- Windows 10/11 with Mathcad Prime 4–10  
-- Python 3.10+  
-- Packages: `openpyxl`, `comtypes`, `tkinter`
+## Requisitos
+Windows 10/11 con Mathcad Prime 4–10
 
-## Installation  
-Clone the repository:
-```bash
+Python 3.10+
+
+Paquetes: openpyxl, comtypes, tkinter
+
+## Instalación
+Clonar:
 git clone https://github.com/IvanLaradeMena/TFG
-Enter the project folder and optionally create a virtual environment.
 
-## **Install dependencies:**
+Entrar al proyecto y, opcionalmente, crear entorno virtual.
 
-bash
-Copy
-Edit
+Instalar dependencias:
 pip install -r requirements.txt
-GUI Usage
-bash
-Copy
-Edit
+
+## Uso GUI
 python main.py
-Select file (.net / .bom / .csv)
 
-Enter H(s) (optional)
+Seleccionar archivo (.net/.bom/.csv)
 
-Review or edit Excel
+Introducir H(s) (opcional)
 
-Confirm or choose Mathcad template
+Revisar o editar Excel
 
-Data transferred to Mathcad Prime
+Confirmar o elegir plantilla Mathcad
 
-CLI Usage
-bash
-Copy
-Edit
-python main.py --input example.net --hs "1/(R1*C1*s+1)" --no-gui
-Structure
-css
-Copy
-Edit
-traductor-wca/  
-├── main.py  
-├── traductor.py  
-├── auto_mathcad.py  
-├── requirements.txt  
+Datos volcados en Mathcad Prime
+
+## Uso CLI
+python main.py --input ejemplo.net --hs "1/(R1*C1*s+1)" --no-gui
+
+## Estructura
+traductor-wca/
+
+├── main.py
+
+├── traductor.py 
+
+├── auto_mathcad.py
+
+├── requirements.txt
+
 └── README.md
-Project Authorship
-Author: Iván Lara de Mena
-Supervisors: Ángel Á. Sánchez, Ángel Otero R.
+
+## Autoría del proyecto
+Autor: Iván Lara de Mena
+
+Tutores: Ángel Á. Sánchez, Ángel Otero R.
