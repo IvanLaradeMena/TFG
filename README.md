@@ -1,54 +1,50 @@
-# Traductor WCA – README
+#WCA Translator – README
+Description
+Python tool to extract component parameters from netlists (.net, .sxsch) and BoMs (.bom, .csv), normalize values, compute Worst-Case deviations, and generate an Excel file ready for import into Mathcad Prime via COM.
 
-## Descripción
-Herramienta en Python para extraer parámetros de componentes desde netlists (.net, .sxsch) y BoM (.bom, .csv), normalizar valores, calcular desviaciones Worst-Case y generar un Excel listo para importar en Mathcad Prime vía COM.
-
-## Requisitos
-Windows 10/11 con Mathcad Prime 4–10
+##Requirements
+Windows 10/11 with Mathcad Prime 4–10
 
 Python 3.10+
 
-Paquetes: openpyxl, comtypes, tkinter
+Packages: openpyxl, comtypes, tkinter
 
-## Instalación
-Clonar:
+##Installation
+Clone:
 git clone https://github.com/IvanLaradeMena/TFG
 
-Entrar al proyecto y, opcionalmente, crear entorno virtual.
+Enter the project directory and optionally create a virtual environment.
 
-Instalar dependencias:
+Install dependencies:
 pip install -r requirements.txt
 
-## Uso GUI
+GUI Usage
 python main.py
 
-Seleccionar archivo (.net/.bom/.csv)
+Select file (.net/.bom/.csv)
 
-Introducir H(s) (opcional)
+Enter H(s) (optional)
 
-Revisar o editar Excel
+Review or edit Excel
 
-Confirmar o elegir plantilla Mathcad
+Confirm or choose Mathcad template
 
-Datos volcados en Mathcad Prime
+Data transferred to Mathcad Prime
 
-## Uso CLI
-python main.py --input ejemplo.net --hs "1/(R1*C1*s+1)" --no-gui
+##CLI Usage
+python main.py --input example.net --hs "1/(R1C1s+1)" --no-gui
 
-## Estructura
+##Structure
 traductor-wca/
 
 ├── main.py
-
-├── traductor.py 
-
+├── traductor.py
 ├── auto_mathcad.py
-
 ├── requirements.txt
-
 └── README.md
 
-## Autoría del proyecto
-Autor: Iván Lara de Mena
+##Project Authorship
+Author: Iván Lara de Mena
+Supervisors: Ángel Á. Sánchez, Ángel Otero R.
 
-Tutores: Ángel Á. Sánchez, Ángel Otero R.
+Supervisors: Ángel Á. Sánchez, Ángel Otero R.
